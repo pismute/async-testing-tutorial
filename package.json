@@ -1,16 +1,17 @@
 {
     "name": "async-testing-tutorial"
-  , "version": "0.0.1"
-  , "description": "A tutorial for Mocha"
-  , "keywords": ["test", "tutorial"]
-  , "author": "Alex R. Young <info@dailyjs.com>"
-  , "main": "index"
-  , "engines": { "node": ">= 0.4.x < 0.7.0" }
-  , "scripts": {
-    "test": "make test"
-  }
-  , "devDependencies": {
-    "mocha": "0.3.x"
-  }
+    , "version": "0.0.1"
+    , "description": "A tutorial for Mocha"
+    , "keywords": ["test", "tutorial"]
+    , "author": "Alex R. Young <info@dailyjs.com>"
+    , "main": "index"
+    , "engines": { "node": ">= 0.4.x < 0.7.0" }
+    , "scripts": {
+        "test": "make test"
+    }
+    , "devDependencies": {
+        "mocha": "1.0.x"
+        , "should": "0.6.x"
+    }
 }
 
